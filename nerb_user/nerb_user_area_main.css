@@ -11,38 +11,42 @@
 /*
 	# User area Modal
 */
-.panels_c48ade{
-    border-bottom:none !important;
-    border-left:none !important;
-    border-right:none !important;
-    border-radius: 0 !important;
+.panels_c48ade {
+	border-bottom: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-radius: 0 !important;
 
 	width: 100% !important;
-    left: 0px !important;
+	left: 0px !important;
 	bottom: 0px !important;
 }
-.container__37e49{
-	padding-bottom:18px !important;
+
+.container__37e49 {
+	padding-bottom: 18px !important;
 	padding-top: 17px !important;
 }
+
 .panel__5dec7,
 .container__37e49,
-.panel__5dec7{
-    padding-left: 16px !important;
-    padding-right: 12px !important;    
+.panel__5dec7 {
+	padding-left: 16px !important;
+	padding-right: 12px !important;
 }
-.visual-refresh .panel__5dec7{
+
+.visual-refresh .panel__5dec7 {
 	border-radius: 0 !important;
 }
-.container_e131a9{
-    padding-left:8px !important;
-    padding-right:6px !important; 
+
+.container_e131a9 {
+	padding-left: 8px !important;
+	padding-right: 6px !important;
 }
 
 /*
 	# User area Modal Button
 */
-.button_e131a9{
+.button_e131a9 {
 	background: none !important;
 	background-color: rgba(0, 0, 0, 0.26) !important;
 }
@@ -50,44 +54,46 @@
 /*
 	# Activity Panel
 */
-.panel__5dec7{
+.panel__5dec7 {
 	background: none !important;
 	background-color: rgba(0, 0, 0, 0.0) !important;
-	border:none !important;
-	border-bottom: 1px solid rgba(69, 69, 69, 0.20	) !important;
+	border: none !important;
+	border-bottom: 1px solid rgba(69, 69, 69, 0.20) !important;
 }
 
 /*
 	# Mute Button
 */
 button.button__67645.redGlow__67645,
-span.button__67645.redGlow__67645{
-	background-color: rgba(222,12,24,0.7) !important;
+span.button__67645.redGlow__67645 {
+	background-color: var(--color-button-mute-n) !important;
 }
-*{
---__lottieIconColor: white;
---interactive-normal: white;
+
+* {
+	--__lottieIconColor: white;
+	--interactive-normal: white;
 
 }
 
 /*
 	# Chat Box
 */
-.formWithLoadedChatInput_f75fb0{
+.formWithLoadedChatInput_f75fb0 {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }
-.channelTextArea__74017{
-	border-radius:0 !important;
+
+.channelTextArea__74017 {
+	border-radius: 0 !important;
 	border-left: none !important;
 	border-right: none !important;
-	margin-bottom:21px !important;
+	margin-bottom: 21px !important;
 }
 
 /*
 	# Focus Ring
 */
-.focus-rings-ring{
+.focus-rings-ring {
 	visibility: hidden !important;
 }
 

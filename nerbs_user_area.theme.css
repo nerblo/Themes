@@ -9,3 +9,19 @@
 **/
 
 @import url("https://nerblo.github.io/Themes/nerb_user/nerb_user_area_main.css");
+
+
+
+/*
+    User Colors
+*/
+
+
+:root {
+    --color-button-mute-n: rgba(222, 12, 24, 0.7); /* Mute Icon Color */
+}
+
+
+/*
+-------------------------------------------------------------------------------
+*/
