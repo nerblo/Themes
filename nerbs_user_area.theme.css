@@ -1,12 +1,11 @@
 /**
-*   @name           nerbs user ares theme
-*   @version        0.0.1
-*   @author         nerblo
-*   @license        CC-BY-SA-4.0
-*   @description    Revert and Improve the User Area on Discord
-*   @source         https://github.com/nerblo/themes
-*   @updateURL      https://raw.githubusercontent.com/nerblo/themes/master/nerbs_user_area.theme.css
-*
+ * @name nerbs_user_area
+ * @author nerblo
+ * @description Revert and Improve the User Area on Discord
+ * @version 0.0.1
+ * @license CC-BY-SA-4.0
+ * @source https://github.com/nerblo/themes
+ * @updateURL https://raw.githubusercontent.com/nerblo/themes/master/nerbs_user_area.theme.css
 **/
 
-@import url("https://nerblo.github.io/themes/nerb_user/nerb_user_area_main.css");
+@import url("https://raw.githubusercontent.com/nerblo/Themes/refs/heads/main/nerb_user/nerb_user_area_main.css");
