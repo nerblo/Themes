@@ -1,0 +1,128 @@
+/**
+*   @name           nerbs user ares theme main file
+*   @version        0.0.1
+*   @author         nerblo
+*   @license        CC-BY-SA-4.0
+*   @description    Revert and Improve the User Area on Discord
+*   @source         https://github.com/nerblo/themes
+*
+**/
+/*
+	# 				Custom Discord Fixes
+*/
+
+
+
+
+/*
+	# User area Modal
+*/
+.panels_c48ade{
+    border-bottom:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    border-radius: 0 !important;
+
+	width: 100% !important;
+    left: 0px !important;
+	bottom: 0px !important;
+}
+.container__37e49{
+	padding-bottom:18px !important;
+	padding-top: 17px !important;
+}
+.panel__5dec7,
+.container__37e49,
+.panel__5dec7{
+    padding-left: 16px !important;
+    padding-right: 12px !important;    
+}
+.visual-refresh .panel__5dec7{
+	border-radius: 0 !important;
+}
+
+
+.container_e131a9{
+    padding-left:8px !important;
+    padding-right:6px !important; 
+}
+
+/*
+	# User area Modal Button
+*/
+.button_e131a9{
+	background: none !important;
+	background-color: rgba(0, 0, 0, 0.26) !important;
+}
+
+/*
+	# Activity Panel
+*/
+.panel__5dec7{
+	background: none !important;
+	background-color: rgba(0, 0, 0, 0.0) !important;
+	border:none !important;
+	border-bottom: 1px solid rgba(69, 69, 69, 0.20	) !important;
+}
+
+/*
+	# Mute Button
+*/
+button.button__67645.redGlow__67645,
+span.button__67645.redGlow__67645{
+	/* background-color: hsl(var(--red-600-hsl)/.99) !important; */
+	background-color: rgba(222,12,24,0.7) !important;
+}
+*{
+--__lottieIconColor: white;
+--interactive-normal: white;
+
+}
+
+/*
+	# Chat Box
+*/
+.formWithLoadedChatInput_f75fb0{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.channelTextArea__74017{
+	border-radius:0 !important;
+	border-left: none !important;
+	border-right: none !important;
+	margin-bottom:21px !important;
+}
+/*
+	# Focus Ring
+*/
+.focus-rings-ring{
+	visibility: hidden !important;
+}
+/*
+	# Background
+*/
+/*
+.custom-theme-background {
+    --custom-theme-background: var(--bg-gradient-retro-storm-1) !important;
+}
+*/
+
+
+
+
+
+
+/*
+.panels_c48ade,
+.button_e131a9,
+.panel__5dec7{
+    background-color:transparent !important;
+    backdrop-filter: blur(500px);
+    background:none !important;
+}
+*/
+
+
+/*
+	# ----------------------------------------------------------------------
+*/
