@@ -1,0 +1,61 @@
+/**
+ * @name nerb_user_area_lite_main
+ * @author nerblo
+ * @description Revert and Improve the User Area on Discord
+ * @version 0.0.1
+ * @license CC-BY-SA-4.0
+ * @source https://github.com/nerblo/themes
+**/
+
+
+/*
+	# User area Modal Button
+*/
+.button_e131a9 {
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0.26) !important;
+}
+
+/*
+	# Serverlist
+*/
+.scroller__629e4 {
+    margin-bottom: 1px !important;
+}
+
+/*
+	# Activity Panel
+*/
+.panel__5dec7 {
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    border: none !important;
+}
+
+/*
+	# Voice Channel Panel
+*/
+.container_e131a9 {
+    border-top: 1px solid var(--border-faint);
+}
+
+/*
+	# Mute Button
+*/
+button.button__67645.redGlow__67645,
+span.button__67645.redGlow__67645 {
+    background-color: var(--color-button-mute-n) !important;
+}
+
+* {
+    --__lottieIconColor: white;
+    --interactive-normal: white;
+
+}
+
+/*
+	# Focus Ring
+*/
+.focus-rings-ring {
+    visibility: hidden !important;
+}

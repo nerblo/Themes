@@ -1,11 +1,11 @@
 /**
- * @name nerbs_user_area
+ * @name nerb_user_area
  * @author nerblo
  * @description Revert and Improve the User Area on Discord
- * @version 0.0.4
+ * @version 0.0.5
  * @license CC-BY-SA-4.0
  * @source https://github.com/nerblo/themes
- * @updateURL https://raw.githubusercontent.com/nerblo/themes/nerb_user/master/nerbs_user_area.theme.css
+ * @updateURL https://raw.githubusercontent.com/nerblo/themes/nerb_user/master/nerb_user_area.theme.css
 **/
 
 @import url("https://nerblo.github.io/Themes/nerb_user/nerb_user_area.css");
@@ -16,10 +16,13 @@
     User Colors
 */
 
-
 :root {
-    --color-button-mute-n: rgba(222, 12, 24, 0.7); /* Mute Icon Color */
+    /*
+        # Mute Icon Color
+    */
+    --color-button-mute-n: rgba(222, 12, 24, 0.7);
 }
+
 
 
 /*

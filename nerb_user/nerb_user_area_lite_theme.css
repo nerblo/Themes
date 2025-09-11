@@ -1,0 +1,30 @@
+/**
+ * @name nerb_user_area_lite
+ * @author nerblo
+ * @description Revert and Improve the User Area on Discord
+ * @version 0.0.3
+ * @license CC-BY-SA-4.0
+ * @source https://github.com/nerblo/themes
+ * @updateURL https://raw.githubusercontent.com/nerblo/themes/nerb_user/master/nerb_user_area_lite.theme.css
+**/
+
+@import url("https://nerblo.github.io/Themes/nerb_user/nerb_user_area_lite.css");
+
+
+
+/*
+    User Colors
+*/
+
+:root {
+    /*
+        # Mute Icon Color
+    */
+    --color-button-mute-n: rgba(222, 12, 24, 0.7);
+}
+
+
+
+/*
+-------------------------------------------------------------------------------
+*/
