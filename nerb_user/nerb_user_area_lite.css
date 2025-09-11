@@ -2,7 +2,7 @@
  * @name nerb_user_area_lite_main
  * @author nerblo
  * @description Revert and Improve the User Area on Discord
- * @version 0.0.1
+ * @version 0.0.2
  * @license CC-BY-SA-4.0
  * @source https://github.com/nerblo/themes
 **/
@@ -59,3 +59,7 @@ span.button__67645.redGlow__67645 {
 .focus-rings-ring {
     visibility: hidden !important;
 }
+
+/*
+	# ----------------------------------------------------------------------
+*/
