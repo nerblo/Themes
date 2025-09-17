@@ -2,7 +2,7 @@
  * @name nerb_user_area_lite_main
  * @author nerblo
  * @description Revert and Improve the User Area on Discord
- * @version 0.0.6
+ * @version 0.0.7
  * @license CC-BY-SA-4.0
  * @source https://github.com/nerblo/themes
 **/
@@ -30,6 +30,24 @@
     background: none !important;
     background-color: rgba(0, 0, 0, 0.0) !important;
     border: none !important;
+}
+
+/*
+    # Quest Progress
+*/
+.contentWrapper__0d616,
+.wrapper__0d616,
+.postEnrollmentBackground__636a2 {
+    background: none !important;
+}
+
+.contentExpanded__636a2 .questAcceptedContent__636a2,
+.postEnrollmentBackgroundCollapsed__636a2 {
+    visibility: hidden !important;
+}
+
+.contentInteractable__636a2 .questAcceptedContent__636a2 {
+    visibility: visible !important;
 }
 
 /*
