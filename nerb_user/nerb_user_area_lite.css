@@ -2,7 +2,7 @@
  * @name nerb_user_area_lite_main
  * @author nerblo
  * @description Revert and Improve the User Area on Discord
- * @version 0.0.8
+ * @version 0.0.9
  * @license CC-BY-SA-4.0
  * @source https://github.com/nerblo/themes
 **/
@@ -60,8 +60,8 @@
 /*
 	## Voice Channel Timer
 */
-.channelInfo_c69b6d{
-	visibility: hidden !important; 
+.channelInfo_c69b6d .tabularNumbers__4bd52 {
+    visibility: hidden !important;
 }
 
 /*
