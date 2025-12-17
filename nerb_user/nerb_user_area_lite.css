@@ -1,88 +1,57 @@
 /**
- * @name nerb_user_area_lite_main
+ * @name nerb_user_area_lite.css
  * @author nerblo
  * @description Revert and Improve the User Area on Discord
- * @version 0.0.9
+ * @version 0.1.1
  * @license CC-BY-SA-4.0
  * @source https://github.com/nerblo/themes
 **/
 
 
 /*
-	# User area Modal Button
+	# Focus Ring
 */
-.button_e131a9 {
-    background: none !important;
-    background-color: rgba(0, 0, 0, 0.26) !important;
-}
-
-/*
-	# Serverlist
-*/
-.scroller__629e4 {
-    margin-bottom: 1px !important;
+.focus-rings-ring {
+    visibility: hidden !important;
 }
 
 /*
 	# Activity Panel
 */
-.panel__5dec7 {
-    background: none !important;
+._5dec784a68542d60-panel {
     background-color: rgba(0, 0, 0, 0.0) !important;
-    border: none !important;
+    border-bottom: 1px solid var(--app-border-frame) !important;
 }
 
 /*
-    # Quest Progress
+	# Voice Channel Status
 */
-.contentWrapper__0d616,
-.wrapper__0d616,
-.postEnrollmentBackground__636a2 {
-    background: none !important;
-}
-
-.contentExpanded__636a2 .questAcceptedContent__636a2,
-.postEnrollmentBackgroundCollapsed__636a2 {
-    visibility: hidden !important;
-}
-
-.contentInteractable__636a2 .questAcceptedContent__636a2 {
-    visibility: visible !important;
-}
-
-/*
-	# Voice Channel Panel
-*/
-.container_e131a9 {
-    border-top: 1px solid var(--border-faint);
+._2ea32c412048f708-linkBottom ._2ea32c412048f708-subtitle {
+    display: none !important;
 }
 
 /*
 	## Voice Channel Timer
 */
-.channelInfo_c69b6d .tabularNumbers__4bd52 {
+.c69b6db0641110f6-channelInfo ._4bd5201c86a2042b-tabularNumbers {
     visibility: hidden !important;
 }
 
 /*
 	# Mute Button
 */
-button.button__67645.redGlow__67645,
-span.button__67645.redGlow__67645 {
+button._67645e1530f1195d-button._67645e1530f1195d-redGlow,
+span._67645e1530f1195d-button._67645e1530f1195d-redGlow {
     background-color: var(--color-button-mute-n) !important;
 }
 
 * {
-    --__lottieIconColor: white;
-    --interactive-normal: white;
-
+    --__lottieIconColor: white !important;
+    --interactive-normal: white !important;
 }
 
-/*
-	# Focus Ring
-*/
-.focus-rings-ring {
-    visibility: hidden !important;
+._37e49614b9f110a9-micButtonParent ._37e49614b9f110a9-buttonChevron {
+    --status-danger: white !important;
 }
 
 /*
